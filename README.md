@@ -8,8 +8,8 @@ For tournaments, please manage your mappings manually (either copy and paste the
 ## How to Integrate the Mappings into MiSTer Downloader:
 To integrate it in a MiSTer device, add the following section to the end of to the file `downloader.ini` that should be placed at the root of the SD (if it doesn't exist, you may create it for this purpose):
 ```ini
-[misteraddons/mistercade-osd-mapping]
-db_url = https://raw.githubusercontent.com/misteraddons/mistercade-osd-mapping/db/db.json.zip
+[misteraddons/mistercade_freeplay_mappings]
+db_url = https://raw.githubusercontent.com/misteraddons/mistercade_freeplay_mappings/db/db.json.zip
 ```
 After that, run *downloader* or *update_all* as usual. It will try to fetch the files from your newly created database. 
 
